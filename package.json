@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "Personal Portfolio Website",
   "main": "index.html",
+  "homepage": "https://callmevolk.github.io/portfolio",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Ljubiša Vuković",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }

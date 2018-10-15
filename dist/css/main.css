@@ -132,6 +132,13 @@ header {
 .text-secondary {
   color: #0A8EC2; }
 
+#main-footer {
+  text-align: center;
+  padding: 1rem;
+  background: #0e3220;
+  color: #FFF;
+  height: 60px; }
+
 main {
   padding: 4rem;
   min-height: calc(100vh - 60px); }
@@ -218,13 +225,6 @@ main {
 .btn-light {
   background: #91e1ba;
   color: #333; }
-
-#main-footer {
-  text-align: center;
-  padding: 1rem;
-  background: #0e3220;
-  color: #FFF;
-  height: 60px; }
 
 @media screen and (min-width: 1171px) {
   .projects {
